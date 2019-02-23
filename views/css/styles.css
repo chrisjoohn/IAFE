@@ -1,0 +1,161 @@
+
+
+img#pup_logo{
+    height: 90px;
+    width: 90px; 
+    float: left;
+
+}
+
+.header-container{
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.1);
+    height: 105px;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20px;
+    color: maroon;
+}
+
+h1{
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+p#slogan{
+    padding-left: 110px;
+    margin: 0%;
+    color: maroon;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#send, #update{
+    padding-bottom: 10px;
+    height: 200px;
+    padding: 30px;
+    border-right: 1px solid black;
+}
+
+#inquiry{
+    padding-bottom: 10px;
+    height: 200px;
+    padding: 30px;
+}
+
+#trackingNumber{
+    width: 560px;
+}
+
+
+div#content{
+    width: 100%;
+    margin: 0%;
+    margin-top: 50px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+#detail1, #detail2{
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+
+#reminder{
+    margin-top: 10px;
+}
+
+button.btn.btn-primary{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.container{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+    img#pup_logo{
+        margin-top: 0px;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    h1{
+        padding-top: 0px;
+        margin-top: 10px;
+        line-height: 12px;
+
+    }
+
+    a#logo{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+        padding: 1px;
+        margin-top: 30px;
+    }
+
+    p#slogan{
+        font-size: 10px;
+        padding-left: 50px;
+        margin-top: 5px;
+        display: block; 
+    }
+
+    .header-container{
+        padding-left: 10px;
+        padding-bottom: 10px;
+        height: 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);/*0 6px 0px 0 rgba(0, 0, 0, 0.19);*/
+        border-bottom: 0px;
+    }
+
+    #send, #update{
+        border-right: 0px;
+        padding: 10px;
+    }
+
+    #inquiry{
+        padding: 10px;
+    }
+
+    .content-container{
+        height: 150%;
+    }
+
+    div#content{
+        margin-top: 10px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    div#content.row{
+        margin-top: 0px;
+    }
+
+    #send, #update{
+        height: 150px;
+    }
+
+    #inquiry{
+        height: 200px;
+    }
+}

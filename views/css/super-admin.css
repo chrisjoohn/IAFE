@@ -1,0 +1,126 @@
+
+        .navbar.navbar-custom.navbar-fixed-top{
+            background: #8f3233;
+            width: 100%;
+        }
+
+        .navbar-brand{
+            color: white;
+        }
+
+        .row{
+            width: 100%;
+        }
+
+        .col-sm-3{
+            margin-top: 3%;
+            min-width: 250px;
+            max-width: 250px;
+            height: 600px;
+
+        }
+
+        img{
+            height: 50px;
+            width: 50px;
+            float: left;
+        }
+
+        .col-sm-9{
+            margin-top: 3%;
+            padding-top: 30px;
+            height: 700px;
+            box-shadow: 0 10px 50px gray;
+        }
+
+        li{
+            list-style-type: none;
+            margin-top: 20px;
+            font-size: 10px;
+            float: left;
+        }
+
+        #fname, #lname, #email, 
+        #password, #confirm{
+            width: 500px;
+            margin-bottom: 10px;
+        }
+
+        .btn.btn-success{
+            margin-top: 20px;
+            margin-left: 415px;
+        }
+
+        .form-group{
+            margin-left: 30px;
+        }
+
+        #content{
+            padding-left: 20px;
+        }
+
+        footer{
+            text-align: center; 
+        }
+
+        p{
+            padding-top: 20px;
+        }
+
+        .sidebar-header{
+            margin-left: 10px;
+        }
+
+        #create, #view{
+            display: block;
+            font-size: 10px;
+            padding-left: 20px;
+            margin-top: 10px;
+            height: 30px;
+            padding: 10px;
+        }
+
+        i{
+            color: black;
+        
+        }
+
+
+        #create:hover, #view:hover{
+            background-color: rgb(161, 250, 231);
+        }
+
+        h3{
+            margin-left: 10px;
+            margin-top: 20%;
+            margin-bottom: 20px;
+            border-bottom: 1px solid lightgray;
+            font-family: serif;
+        }
+
+        img#view-account{
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
+
+        table {
+            width: 100%;
+          }
+
+          table, th, td {
+            border: 1px solid lightgrey;
+            border-collapse: collapse;
+          }
+
+          th, td {
+            padding: 2px 4px;
+          }
+      
+        .fa-sign-out{
+            color: white;
+        }
+
+        #sign-out{
+            margin-top: 10px;   
+        }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="public/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="public/css/super-admin.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="public/js/jquery-3.3.1.min.js"></script>
+        <script src="public/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </head>
+    <title>
+        Super Admin
+    </title>
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Internal Audit Admin</a>
+                </div>
+                <div class="navbar-header pull-right">
+                    <a href="login">
+                        <i class="fa fa-sign-out fa-2x" id="sign-out"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-3">
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Hi Admin!</h3>
+                    </div>
+                        <a id="create" href="#"><i class="fa fa-user-plus fa-2x"> Create Account</i></a>
+                        <a id="view" href="view-accounts"><i class="fa fa-users fa-2x">  View Accounts</i></a>
+                </nav>
+            </div>
+            <div class="col-sm-9">
+                <div class="container-fluid" id="content">
+                    <img src="public/images/add-user-male.png" alt="add_user" class="img-responsive">
+                    <h2>Create Account</h2>
+                    <form>
+                        <div class="form-group">
+                            <div class="row" id="form_handler">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" class="form-control" name="fname" required>  
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" class="form-control" name="lname" required>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" name="password" required>
+                                <label for="confirm">Re-enter Password</label>
+                                <input type="password" id="confirm" class="form-control" name="confirm" required>
+                            </div>
+                        <button type="submit" class="btn btn-success">Create</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+                <div class="row" style="margin-top: 0px;">
+                    <p>
+                        © 2019 Polytechnic University of the Philippines
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</html>
